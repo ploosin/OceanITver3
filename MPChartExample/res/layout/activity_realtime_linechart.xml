@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:text="현재온도 : "
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/currentTmp"
+        />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+    />
+
+</RelativeLayout>
